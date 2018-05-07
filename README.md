@@ -1,34 +1,36 @@
 # Google-Search-PDF-Crawler-pdf2txt-
-Google Search PDF Crawler (+ pdf2txt converter)
+Google Search PDF Crawler (with pdf2txt converter)
 
  
 
-Requirements!! (not included into base Anaconda)
+## Requirements!!
+(not included into base Anaconda)
 
---> pdfminer.six    (download via 'pip install pdfminer.six')
+--> **pdfminer.six**    (download via 'pip install pdfminer.six')
 
  
 
  
 
+
+
+ 
+## Parameters
 change parameters to get pdfs
 
- 
+**pages** = 2                             #pages to download
 
-------------parameters------------
+**search_keyword** = '자동차산업'          #keywrod to search
 
-pages = 2                             #pages to download
+**start_date** = '01/01/2016'               #search start date
 
-search_keyword = '자동차산업'          #keywrod to search
+**end_date** = '03/21/2018'                #search end date
 
-start_date = '01/01/2016'               #search start date
+**filetype** = 'pdf'                         #filetype to search
 
-end_date = '03/21/2018'                #search end date
+**download_dir** = "./download/"           #directory to download pdf               
 
-filetype = 'pdf'                         #filetype to search
+**txt_dir** = "./download/txt/"          #directory to save converted txt         
 
-download_dir = "./download/"           #directory to download pdf               #important!! : for mac -> use "/", for windows -> use "\"
+**#important!! : for mac -> use "/", for windows -> use "\\"**
 
-txt_dir = './download/txt/'          #directory to save converted txt         #important!! : for mac -> use "/", for windows -> use "\"
-
-------------parameters------------
