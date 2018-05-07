@@ -3,10 +3,10 @@ Google Search PDF Crawler (with pdf2txt converter)
 
  
 
-## Requirements!!
+## Requirements
 (not included into base Anaconda)
 
---> **pdfminer.six**    (download via 'pip install pdfminer.six')
+--> **pdfminer.six**    (download via **'pip install pdfminer.six'**)
 
  
 
@@ -20,7 +20,7 @@ change parameters to get pdfs
 
 **pages** = 2                             #pages to download
 
-**search_keyword** = '자동차산업'          #keywrod to search
+**search_keyword** = '자동차산업'          #keyword to search
 
 **start_date** = '01/01/2016'               #search start date
 
