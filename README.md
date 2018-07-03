@@ -21,6 +21,6 @@ if __name__=="__main__":
 ```
 
 Initial setting : download directory -> ".\donwload\", converted txt directory -> ".\donwload\txt"
-To set download directory manually : give argument as download_dir=r'C:\Users\something\'   <- should be ended with '\'
+To set download directory manually : give argument as download_dir=r'C:\Users\something\'   <- should be ended with \
 
 
