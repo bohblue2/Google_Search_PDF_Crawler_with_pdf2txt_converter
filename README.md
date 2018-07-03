@@ -11,22 +11,17 @@ Google Search PDF Crawler (with pdf2txt converter)
 
 
  
-## Parameters
-change parameters to get pdfs
+## Usage Example
+'''
+api 이용예시 (usage example)
+if __name__=="__main__":
+    pdfcrawler = pdf2txt(["Water Industry", "Industry 4.0"], pages=10, start_date='01/01/2013', end_date='12/31/2017', filetype='pdf')
+    pdfcrawler.download_search_data()
+    pdfcrawler.convert_pdfs()
+    pdfcrawler.concate_all_txt()
+'''
 
-**pages** = 2                             #pages to download
+Initial settinh -> ".\donwload\", ".\donwload\txt"
+To set download directory manually -> give argument as download_dir=r'C:\Users\something\'   <- should be ended with '\'
 
-**search_keyword** = '자동차산업'          #keyword to search
-
-**start_date** = '01/01/2016'               #search start date
-
-**end_date** = '03/21/2018'                #search end date
-
-**filetype** = 'pdf'                         #filetype to search
-
-**download_dir** = "./download/"           #directory to download pdf               
-
-**txt_dir** = "./download/txt/"          #directory to save converted txt         
-
-**#important!! : for mac -> use "/", for windows -> use "\\"**
 
