@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 from random import randint 
 
 '''
-api 이용예시
+api 이용예시 (usage example)
 
 if __name__=="__main__":
     pdfcrawler = pdf2txt(["water industry", "Industry 4.0"], pages=10)     #list의 항목을 각각 검색함
