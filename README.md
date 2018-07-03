@@ -3,14 +3,10 @@ Google Search PDF Crawler (with pdf2txt converter)
 
  
 
-## Requirements
+## Requirements (Dependency)
 (not included into base Anaconda)
 
---> **pdfminer.six**    (download via **'pip install pdfminer.six'**)
-
- 
-
- 
+--> **pdfminer.six**    (download via **'pip install pdfminer.six'** or **'conda install pdfminer.six'**)
 
 
 
