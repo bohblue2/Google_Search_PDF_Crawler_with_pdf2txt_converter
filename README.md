@@ -20,7 +20,7 @@ if __name__=="__main__":
     pdfcrawler.concate_all_txt()  #concate txt files each by search keyword -> to analyze whole txt data
 ```
 
-Initial settinh -> ".\donwload\", ".\donwload\txt"
+Initial setting -> download directory -> ".\donwload\", converted txt directory -> ".\donwload\txt"
 To set download directory manually -> give argument as download_dir=r'C:\Users\something\'   <- should be ended with '\'
 
 
