@@ -16,7 +16,7 @@ if __name__=="__main__":
     pdfcrawler = pdf2txt(["Water Industry", "Industry 4.0"], pages=10, 
                          start_date='01/01/2013', end_date='12/31/2017', filetype='pdf')
     pdfcrawler.download_search_data()     #download pdfs from list -> ["Water Industry", "Industry 4.0"]
-    pdfcrawler.convert_pdfs()     #convert all pdfs to txt
+    pdfcrawler.convert_pdfs(to_json=True)     #convert all pdfs to txt, json file could be used as DataFrame
     pdfcrawler.concate_all_txt()  #concate txt files each by search keyword -> to analyze whole txt data
 ```
 
